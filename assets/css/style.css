@@ -1,0 +1,85 @@
+/* ----- Background------*/
+body{
+    background-image: url(../images/stary-night.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .2rem;
+    font-size: 13px;
+    text-align: center;
+
+}
+/* ----- Colours------*/
+
+/* ----- container------*/
+.container{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+/* ----- Header------*/
+
+.header-section{
+    border: 1px solid;
+    height: 250px;
+}
+
+.header-text{
+    text-align: center;
+}
+
+.header-text p {
+    font-size: smaller;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.header-text h4{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.bday{
+    font-family: 'Sacramento', cursive;
+    font-size: 75px;
+    letter-spacing: .2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* ----- Right Section------*/
+
+.right-section{
+    border: 1px solid;
+    height: 200px;
+    text-align: center;
+}
+
+.when-where{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    letter-spacing: .2rem;
+}
+
+.right-section ul {
+    margin: 0 auto;
+    padding: 0 ;
+}
+/* ----- Left Sections------*/
+.left-section{
+    border: 1px solid;
+    height: 200px;
+    text-align: center;
+}
+
+.other-header{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    letter-spacing: .2rem;
+}
+
+
+
