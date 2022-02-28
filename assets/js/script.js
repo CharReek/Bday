@@ -1,3 +1,18 @@
-const headerSection = document.getElementsById("header-section")
-const leftSection = document.getElementById("left-section")
-const rightSection = document.getElementById("right-section")
+function showHide() {
+    var x = document.getElementById("when-where");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function showHideTwo() {
+    var x = document.getElementById("other-info");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
