@@ -15,7 +15,7 @@ body{
 /* ----- container------*/
 .container{
     margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -28,13 +28,6 @@ body{
 
 .header-text{
     text-align: center;
-}
-
-.header-text p {
-    font-size: smaller;
-    padding: 0;
-    margin-top: 10px;
-    margin-bottom: 0;
 }
 
 .header-text h4{
@@ -81,4 +74,16 @@ body{
     font-family: 'Sacramento', cursive;
     font-size: 35px;
     letter-spacing: .2rem;
+}
+
+/* ----- Media Queries ----*/
+
+@media screen and (max-width:506px){
+    .bday{
+        font-size: 45px ;
+    }
+    .header-text h4{ 
+        font-size: 15px;
+        margin:0 ;
+    }
 }
