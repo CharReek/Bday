@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height:800px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .2rem;
     font-size: 13px;
@@ -23,7 +24,7 @@ body{
 
 .header-section{
     border: 1px solid;
-    height: 250px;
+    height: 230px;
 }
 
 .header-text{
@@ -47,7 +48,7 @@ body{
 
 .right-section{
     border: 1px solid;
-    height: 200px;
+    height: 250px;
     text-align: center;
 }
 
@@ -58,7 +59,6 @@ body{
 }
 
 .right-section ul {
-    margin: 0 auto;
     padding: 0 ;
 }
 
@@ -66,7 +66,7 @@ body{
 /* ----- Left Sections------*/
 .left-section{
     border: 1px solid;
-    height: 200px;
+    height: 250px;
     text-align: center;
 }
 
@@ -81,9 +81,13 @@ body{
 @media screen and (max-width:506px){
     .bday{
         font-size: 45px ;
+        margin: 10px;
     }
     .header-text h4{ 
-        font-size: 15px;
+        font-size: 14px;
         margin:0 ;
+    }
+    .when-where p{
+        margin: 10px;
     }
 }
