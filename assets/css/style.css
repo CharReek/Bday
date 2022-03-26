@@ -4,39 +4,37 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height:800px;
+    height: 800px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: .2rem;
     font-size: 13px;
     text-align: center;
-
 }
-/* ----- Colours------*/
-
 /* ----- container------*/
-.container{
+.container {
     margin-top: 50px;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    z-index: 3;
 }
 
 /* ----- Header------*/
 
-.header-section{
+.header-section {
     border: 1px solid;
     height: 230px;
 }
 
-.header-text{
+.header-text {
     text-align: center;
 }
 
-.header-text h4{
+.header-text h4 {
     margin-top: 10px;
     margin-bottom: 0;
 }
 
-.bday{
+.bday {
     font-family: 'Sacramento', cursive;
     font-size: 75px;
     letter-spacing: .2rem;
@@ -44,50 +42,124 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 /* ----- Right Section------*/
 
-.right-section{
+.right-section {
     border: 1px solid;
     height: 250px;
     text-align: center;
 }
 
-.other-header{
+.other-header {
     font-family: 'Sacramento', cursive;
     font-size: 35px;
     letter-spacing: .2rem;
+    padding-top: 5px;
 }
 
 .right-section ul {
-    padding: 0 ;
+    padding: 0;
 }
 
 
 /* ----- Left Sections------*/
-.left-section{
+.left-section {
     border: 1px solid;
     height: 250px;
     text-align: center;
 }
 
-.when-where-title{
+.when-where-title {
     font-family: 'Sacramento', cursive;
     font-size: 35px;
     letter-spacing: .2rem;
+    margin: 0;
+    padding-top: 5px;
 }
-
 /* ----- Media Queries ----*/
 
-@media screen and (max-width:506px){
-    .bday{
-        font-size: 45px ;
+@media screen and (max-width:506px) {
+    .bday {
+        font-size: 45px;
         margin: 10px;
     }
-    .header-text h4{ 
+
+    .header-text h4 {
         font-size: 14px;
-        margin:0 ;
+        margin: 0;
+        padding-top: 10px;
     }
-    .when-where p{
+
+    .when-where p {
         margin: 10px;
+    }
+
+    .when-where-title {
+        padding-top: 0;
+    }
+    .right-section{
+        height: 300px;
+    }
+    .left-section{
+        height: 260px;
+    }
+    .header-section{
+        height: 240px;
+    }
+
+}
+
+@media screen and (min-width:507px) and (max-width:767px) {
+    .bday {
+        font-size: 50px;
+        margin: 10px;
+    }
+
+    .header-text h4 {
+        font-size: 14px;
+        margin: 0;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    .bday {
+        font-size: 50px;
+        margin: 10px;
+    }
+
+    .header-text h4 {
+        font-size: 14px;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .when-where-title,
+    .other-header {
+        font-size: 28px;
+    }
+
+    .right-section ul {
+        font-size: 10px;
+    }
+
+    .when-where p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .bday {
+        font-size: 65px;
+        margin: 10px;
+    }
+
+    .right-section ul {
+        font-size: 11px;
+    }
+
+    .when-where p {
+        font-size: 11px;
     }
 }
